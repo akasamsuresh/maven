@@ -21,7 +21,7 @@ try {
    delivery.artifactory()
   }
   catch (e) {
-      currentBuild.result = "FAILED"
+      currentBuild.result = "FAILED" 
       throw e
     }
 }
