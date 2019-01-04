@@ -1,4 +1,3 @@
-
 node('slave') {
 // Delete the workspace
 //deleteDir()
