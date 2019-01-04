@@ -1,4 +1,4 @@
-node('suri3') {
+node('suri43') {
 // Delete the workspace
 //deleteDir()
 stage('Retrieve source code') {
