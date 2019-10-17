@@ -44,7 +44,20 @@
 </plugins>
     <finalName>vsvyadav-${build.number}</finalName>
   </build>
+  <distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <name>Releases</name>
+      <url>http://13.233.231.254:8081/repository/gcprel/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Snapshot</name>
+      <url>http://13.233.231.254:8081/repository/gcpsnap/</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
+
 
 
 
